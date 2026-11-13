@@ -1,0 +1,6 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth;scroll-padding-top:5rem}
+body{@apply bg-white text-navy font-sans antialiased dark:bg-navy-900 dark:text-slate-200}
+h1,h2,h3{@apply font-display tracking-tight}
+:focus-visible{outline:2px solid #4A759C;outline-offset:3px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
